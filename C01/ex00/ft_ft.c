@@ -6,20 +6,22 @@
 /*   By: namoreir <namoreir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 16:52:52 by namoreir          #+#    #+#             */
-/*   Updated: 2023/06/02 19:41:59 by namoreir         ###   ########.fr       */
+/*   Updated: 2023/06/08 15:18:13 by namoreir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-int	ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
 
-//	int	main(void)
+// #include <stdio.h>
+// int	main(void)
 // {
-// 	int a = 50;
+// 	int	a;
+
+// 	a = 50;
 // 	ft_ft(&a);
 // 	printf("%d\n", a);
+// 	return(0);
 // }

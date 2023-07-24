@@ -6,11 +6,9 @@
 /*   By: namoreir <namoreir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 18:55:52 by namoreir          #+#    #+#             */
-/*   Updated: 2023/06/02 19:42:47 by namoreir         ###   ########.fr       */
+/*   Updated: 2023/06/08 15:33:34 by namoreir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
@@ -18,16 +16,15 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 
-// int main()
+// #include <stdio.h>
+// int	main(void)
 // {
-// 	int a;
-// 	int b;
-// 	int c;
-// 	int d;
-// 	int *pc = &c;
-// 	int *pd = &d;
-
-// 	a = 2;
-// 	b = 5;
-// 	ft_div_mod(a, b, &c, &d);
+// 	int	nb1;
+// 	int	nb2;
+// 	int	nb3;
+// 	int	nb4;
+// 	nb1 = 857;
+// 	nb2 = 10;
+// 	ft_div_mod(nb1, nb2, &nb4, &nb3);
+// 	printf("%d %d", nb3, nb4);
 // }
